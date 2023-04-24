@@ -150,7 +150,7 @@ const LandingPage = () => {
         </Container>
 
         <footer className="slowcut_footer">
-          Slowcut is just a{' '}
+          Movieboxed is just a{' '}
           <a
             href="https://letterboxd.com/"
             target="_blank"

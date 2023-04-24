@@ -5,7 +5,7 @@ import './styles/App.css';
 import './styles/Navbar.css';
 import movieboxd from './images/movieboxd-logo.png';
 import searchIcon from './images/search.png';
-
+import Footer from './components/Footer';
 // react-bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Form, FormControl, Nav } from 'react-bootstrap';
@@ -50,7 +50,7 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link className="nav_link" href="/home">
+              <Nav.Link className="nav_link" href="/">
                 Home
               </Nav.Link>
               <Nav.Link className="nav_link" href="/films">
@@ -96,6 +96,7 @@ function App() {
           <Route exact path="/films/genre/:genreName" component={Grid} />
           <Route render={() => <NoMatchRoute />} />
         </Switch>
+        <Footer />
       </div>
     </>
   );
