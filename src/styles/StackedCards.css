@@ -1,0 +1,49 @@
+.white {
+  color: var(--color-text);
+}
+.parent {
+  display: grid;
+  grid-template-columns: 125px 1fr;
+  grid-template-rows: 75px 1fr;
+  margin: 1rem 0;
+  height: 125px;
+}
+
+.child {
+  grid-area: 1 / 1 / 2 / 2;
+  box-shadow: 2px 4px 7px #000;
+  border-radius: 4px;
+  width: 75px;
+  height: 125px;
+  background: var(--color-light-gray);
+}
+
+.child > img {
+  width: 75px;
+  height: 125px;
+}
+
+.child0 {
+  margin-left: 200px;
+}
+
+.child1 {
+  margin-left: 160px;
+}
+
+.child2 {
+  margin-left: 120px;
+}
+.child3 {
+  margin-left: 80px;
+}
+.child4 {
+  margin-left: 40px;
+}
+.child5 {
+  margin-left: 0px;
+}
+
+.popular_list_user {
+  color: #777;
+}

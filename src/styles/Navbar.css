@@ -1,0 +1,40 @@
+.nav {
+  background-color: rgba(20, 24, 28, 0) !important;
+}
+
+.nav::hover {
+  background-color: rgba(20, 24, 28, 0.8) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--color-text) !important;
+}
+
+.white {
+  color: var(--color-text);
+}
+
+.background-white {
+  background-color: white;
+}
+
+.nav_icon > img {
+  display: inline-block;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.nav_brand {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  margin-right: 25px;
+  font-weight: 700;
+}
+
+.nav_link {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-weight: 900;
+  color: var(--color-text);
+}
